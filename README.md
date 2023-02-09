@@ -3,7 +3,7 @@
 
 
 
-<img width="1200" height="300" src="https://github.com/runningcw/BowelNet/blob/master/bowel_fineseg/arch/segmentors.png"/>
+<img width="1200" height="300" src="https://github.com/runningcw/BowelNet/blob/master/bowel_fineseg/arch/segmentors.png"/></dev>
 
 
 
