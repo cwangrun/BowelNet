@@ -19,7 +19,7 @@ The algorithm is a two-stage coarse-to-fine segmentation framework for the sgmen
 (2) [Fine segmentation of each part using geometric (i.e., boundary and skeleton) guidance](https://github.com/runningcw/BowelNet/tree/master/bowel_fineseg)
 
 
-Some example images and segmentation results will come soon...
+Some anonymized example images and segmentation results will come soon...
 
    
 If you are interested in this work or use the code, please consider to cite the paper:
