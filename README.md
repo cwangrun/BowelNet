@@ -14,7 +14,7 @@ Introduction:
 
 The algorithm is a two-stage coarse-to-fine segmentation framework for the sgmentation of entire bowel (including duodenum, jejunum-ileum, colon, sigmoid, and rectum) in abdominal CT images. 
 
-(1) [Joint localzation of the 5 bowel parts using both partially- and fully-labeled images](https://github.com/runningcw/BowelNet/tree/master/bowel_coarseseg)
+(1) [Joint localzation of the five bowel parts using both partially- and fully-labeled images](https://github.com/runningcw/BowelNet/tree/master/bowel_coarseseg)
 
 (2) [Fine segmentation of each part using geometric (i.e., boundary and skeleton) guidance](https://github.com/runningcw/BowelNet/tree/master/bowel_fineseg)
 
