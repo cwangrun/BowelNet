@@ -19,6 +19,6 @@ The algorithm is a two-stage coarse-to-fine framework for the sgmentation of ent
 Some anonymized example images and segmentation results will come soon...
 
    
-__If you are interested in this work or use the code, please consider to cite the paper__:
+__If you are interested in this work or use the software, please consider to cite the paper__:
 
 C. Wang, Z. Cui, J. Yang, M. Han, G. Carneiro and D. Shen, "BowelNet: Joint Semantic-Geometric Ensemble Learning for Bowel Segmentation from Both Partially and Fully Labeled CT Images," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2022.3225667
