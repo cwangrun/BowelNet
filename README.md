@@ -41,6 +41,10 @@ We use a private large abdominal CT dataset with partially and fully-labeled seg
 	│	│  ...
 	│	│   └── <patient_m>_<slice_n>.p
 		
+1. 这是一级有序列表，第一层级还是数字1
+  1. 这是二级有序列表，数字在这里会转义成罗马数字
+    1. 这是三级有序列表，数字在这里会被转义成英文字母
+      1. 这是四级有序列表，显示效果就不会再变化了，依旧是英文字母
 		
 ```
 
