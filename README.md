@@ -22,8 +22,7 @@ We use a private large abdominal CT dataset with partially and fully-labeled seg
 
 ```
 
-Boweldata
-	├── ADC
+
 	│	│   ├── <patient_1>_<slice_1>.png
 	│	│  ...
 	│	│  ...
