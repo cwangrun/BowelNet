@@ -17,7 +17,9 @@ The algorithm is a two-stage coarse-to-fine framework for the sgmentation of ent
 
 
 __Dataset__:
-We use a private large abdominal CT dataset with partially and fully-labeled segmentation masks. Dataset sturecure:
+
+We use a private large abdominal CT dataset with partially and fully-labeled segmentation masks. 
+Dataset sturecure:
 
    
 __If you are interested in this work or use the software, please consider citing the paper__:
