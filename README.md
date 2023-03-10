@@ -23,7 +23,7 @@ We use a private large abdominal CT dataset with partially and fully-labeled seg
 ```
 
 prostate_data_1
-	├── Fully_Labeled_5C
+	├── Fully_labeled_5C
 	│	├── ADC
 	│	│   ├── <patient_1>_<slice_1>.png
 	│	│  ...
@@ -42,9 +42,9 @@ prostate_data_1
 	│	│  ...
 	│	│  ...
 	│	│   └── <patient_m>_<slice_n>.png
-	└── Conlon & Sigmoid
+	└── Colon_Sigmoid
         
-	└── SmallBowel
+	└── Smallbowel
 		
 		
 ```
