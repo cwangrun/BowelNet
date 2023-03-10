@@ -7,7 +7,6 @@ Pytorch implementation of the paper "BowelNet: Joint Semantic-Geometric Ensemble
 <img width="285" height="185" src="https://github.com/runningcw/BowelNet/blob/master/bowel_fineseg/arch/segmentors.png"/></dev>
 
 
-__Introduction__:
 ## Introduction:
 
 The algorithm is a two-stage coarse-to-fine framework for the sgmentation of entire bowel (including duodenum, jejunum-ileum, colon, sigmoid, and rectum) in abdominal CT images. 
@@ -17,7 +16,7 @@ The algorithm is a two-stage coarse-to-fine framework for the sgmentation of ent
 (2) [Fine segmentation of each part using geometric (i.e., boundary and skeleton) guidance](https://github.com/runningcw/BowelNet/tree/master/bowel_fineseg)
 
 
-__Dataset__:
+## Dataset:
 
 We use a private large abdominal CT dataset with partially and fully-labeled segmentation masks. Dataset structure:
 
@@ -63,7 +62,7 @@ prostate_data_1
 	        └── <patient_m>_<slice_n>.png
 ```
 
-   
+## Citation:
 __If you are interested in this work or use the software, please consider citing the paper__:
 
 C. Wang, Z. Cui, J. Yang, M. Han, G. Carneiro and D. Shen, "BowelNet: Joint Semantic-Geometric Ensemble Learning for Bowel Segmentation from Both Partially and Fully Labeled CT Images," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2022.3225667
