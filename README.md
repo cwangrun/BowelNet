@@ -24,24 +24,24 @@ We use a private large abdominal CT dataset with partially and fully-labeled seg
 
 prostate_data_1
 	├── Fully_labeled_5C
-	│	├── ADC
+	│	├── abdomen
 	│	│   ├── <patient_1>.nii.gz
 	│	│  ...
 	│	│  ...
 	│	│  ...
 	│	│   └── <patient_m>.nii.gz
-	│	├── GT
+	│	├── male
 	│	│   ├── <patient_1>.nii.gz
 	│	│  ...
 	│	│  ...
 	│	│  ...
-	│	│   └── <patient_m>_<slice_n>.png
-	│	└── T2
-	│	│   ├── <patient_1>_<slice_1>.png
+	│	│   └── <patient_m>.nii.gz
+	│	└── female
+	│	│   ├── <patient_1>.nii.gz
 	│	│  ...
 	│	│  ...
 	│	│  ...
-	│	│   └── <patient_m>_<slice_n>.png
+	│	│   └── <patient_m>.nii.gz
 	└── Colon_Sigmoid
         
 	└── Smallbowel
