@@ -22,7 +22,7 @@ We use a private large abdominal CT dataset with partially and fully-labeled seg
 
 ```
 
-prostate_data_1
+BowelSegData
 	├── Fully_labeled_5C
 	│	├── abdomen
 	│	│   ├── <patient_1>.nii.gz
@@ -35,10 +35,10 @@ prostate_data_1
 	│	│  ...
 	│	│   └── <patient_m>.nii.gz
 	│	└── female
-	│	│   ├── <patient_1>.nii.gz
-	│	│  ...
-	│	│  ...
-	│	│   └── <patient_m>.nii.gz
+	│	    ├── <patient_1>.nii.gz
+	│	   ...
+	│	   ...
+	│	    └── <patient_m>.nii.gz
 	└── Colon_Sigmoid
         │	├── abdomen
 	│	│   ├── <patient_1>.nii.gz
@@ -51,11 +51,11 @@ prostate_data_1
 	│	│  ...
 	│	│   └── <patient_m>.nii.gz
 	│	└── female
-	│	│   ├── <patient_1>.nii.gz
-	│	│  ...
-	│	│  ...
-	│	│   └── <patient_m>.nii.gz
-	└── __Smallbowel__
+	│	    ├── <patient_1>.nii.gz
+	│	   ...
+	│	   ...
+	│	    └── <patient_m>.nii.gz
+	└── Smallbowel
 	 	├── abdomen
 	 	│   ├── <patient_1>.nii.gz
 	 	│  ...
@@ -67,10 +67,10 @@ prostate_data_1
 	  	│  ...
 	 	│   └── <patient_m>.nii.gz
 	 	└── female
-	 	│   ├── <patient_1>.nii.gz
-	 	│  ...
-	 	│  ...
-	 	│   └── <patient_m>.nii.gz
+	 	    ├── <patient_1>.nii.gz
+	 	   ...
+	 	   ...
+	 	    └── <patient_m>.nii.gz
 		
 ```
 
