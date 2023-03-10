@@ -19,6 +19,8 @@ The algorithm is a two-stage coarse-to-fine framework for the sgmentation of ent
 __Dataset__:
 
 We use a private large abdominal CT dataset with partially and fully-labeled segmentation masks. Dataset structure:
+
+```
 prostate_data_1
 	├── train
 	│	├── ADC
