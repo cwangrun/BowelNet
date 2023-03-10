@@ -16,7 +16,8 @@ The algorithm is a two-stage coarse-to-fine framework for the sgmentation of ent
 (2) [Fine segmentation of each part using geometric (i.e., boundary and skeleton) guidance](https://github.com/runningcw/BowelNet/tree/master/bowel_fineseg)
 
 
-Some anonymized example images and segmentation results will come soon...
+__Dataset__:
+We use a private large abdominal CT dataset with partially and fully-labeled segmentation masks. Dataset sturecure:
 
    
 __If you are interested in this work or use the software, please consider citing the paper__:
