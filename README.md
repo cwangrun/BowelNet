@@ -8,6 +8,7 @@ Pytorch implementation of the paper "BowelNet: Joint Semantic-Geometric Ensemble
 
 
 __Introduction__:
+## Introduction:
 
 The algorithm is a two-stage coarse-to-fine framework for the sgmentation of entire bowel (including duodenum, jejunum-ileum, colon, sigmoid, and rectum) in abdominal CT images. 
 
