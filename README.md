@@ -49,7 +49,7 @@ BowelSegData
 	│	    ├── <patient_1>.nii.gz
 	│	   ...
 	│	    └── <patient_m>.nii.gz
-	└── Smallbowel
+	└── __Smallbowel__
 	 	├── abdomen
 	 	│   ├── <patient_1>.nii.gz
 	 	│  ...
