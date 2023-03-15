@@ -81,7 +81,7 @@ if __name__ == '__main__':
         assert os.path.isfile(coarse_mask_file)
         coarse_mask = nib.load(coarse_mask_file).get_fdata()
         coarse_mask = scipy.ndimage.interpolation.zoom((coarse_mask).astype(np.float32),
-                                                       resize_factor=np.array(img.shape) / np.array(coarse_mask.shape),
+                                                       zoom=np.array(img.shape) / np.array(coarse_mask.shape),
                                                        mode='nearest',
                                                        order=0)  # order = 0 nearest interpolation
         coarse_mask = np.round(coarse_mask).astype(np.int32)
