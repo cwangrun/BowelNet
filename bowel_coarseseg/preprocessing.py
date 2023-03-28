@@ -125,14 +125,14 @@ for iii, image_file in enumerate(files):
 
     # save preprocessed data
     #######################################################################################################
-    if not os.path.exists(os.path.dirname(image_file.replace('/alldata', '/alldata_preprocessed'))):
-        os.makedirs(os.path.dirname(image_file.replace('/alldata', '/alldata_preprocessed')))
+    if not os.path.exists(os.path.dirname(image_file.replace('/alldata', '/crop_preprocessed'))):
+        os.makedirs(os.path.dirname(image_file.replace('/alldata', '/crop_preprocessed')))
 
-    mask_save_path = os.path.dirname(os.path.dirname(image_file)).replace('/alldata', '/alldata_preprocessed')
+    mask_save_path = os.path.dirname(os.path.dirname(image_file)).replace('/alldata', '/crop_preprocessed')
     cv2.imwrite(mask_save_path + '/' + image_file.split('/')[-2] + '.jpg', mask_body.transpose())
 
-    nib.save(nib.Nifti1Image(image_body, header=image_info.header, affine=image_info.affine), image_file.replace('/alldata', '/alldata_preprocessed'))
-    nib.save(nib.Nifti1Image(masks_body, header=label_info.header, affine=label_info.affine), label_file.replace('/alldata', '/alldata_preprocessed'))
+    nib.save(nib.Nifti1Image(image_body, header=image_info.header, affine=image_info.affine), image_file.replace('/alldata', '/crop_preprocessed'))
+    nib.save(nib.Nifti1Image(masks_body, header=label_info.header, affine=label_info.affine), label_file.replace('/alldata', '/crop_preprocessed'))
     #######################################################################################################
 
     # save downsampled data
@@ -140,11 +140,11 @@ for iii, image_file in enumerate(files):
     image_downsampled = image_body[::2, ::2, ::2]
     masks_downsampled = masks_body[::2, ::2, ::2]
 
-    if not os.path.exists(os.path.dirname(image_file.replace('/alldata', '/alldata_downsampled'))):
-        os.makedirs(os.path.dirname(image_file.replace('/alldata', '/alldata_downsampled')))
+    if not os.path.exists(os.path.dirname(image_file.replace('/alldata', '/crop_downsample'))):
+        os.makedirs(os.path.dirname(image_file.replace('/alldata', '/crop_downsample')))
 
-    nib.save(nib.Nifti1Image(image_downsampled, header=image_info.header, affine=image_info.affine), image_file.replace('/alldata', '/alldata_downsampled'))
-    nib.save(nib.Nifti1Image(masks_downsampled, header=label_info.header, affine=label_info.affine), label_file.replace('/alldata', '/alldata_downsampled'))
+    nib.save(nib.Nifti1Image(image_downsampled, header=image_info.header, affine=image_info.affine), image_file.replace('/alldata', '/crop_downsample'))
+    nib.save(nib.Nifti1Image(masks_downsampled, header=label_info.header, affine=label_info.affine), label_file.replace('/alldata', '/crop_downsample'))
     #######################################################################################################
 
     # break
