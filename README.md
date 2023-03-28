@@ -29,37 +29,29 @@ BowelSegData
 	│	├── male
 	│	│   ├── <patient_1>.nii.gz
 	│	│  ...
-	│	│   └── <patient_m>.nii.gz
 	│	└── female
 	│	    ├── <patient_1>.nii.gz
 	│	   ...
-	│	    └── <patient_m>.nii.gz
 	├── Colon_Sigmoid
         │	├── abdomen
 	│	│   ├── <patient_1>.nii.gz
 	│	│  ...
-	│	│   └── <patient_m>.nii.gz
 	│	├── male
 	│	│   ├── <patient_1>.nii.gz
 	│	│  ...
-	│	│   └── <patient_m>.nii.gz
 	│	└── female
 	│	    ├── <patient_1>.nii.gz
 	│	   ...
-	│	    └── <patient_m>.nii.gz
 	└── Smallbowel
 	 	├── abdomen
 	 	│   ├── <patient_1>.nii.gz
 	 	│  ...
-	 	│   └── <patient_m>.nii.gz
 	 	├── male
 	 	│   ├── <patient_1>.nii.gz
 	  	│  ...
-	 	│   └── <patient_m>.nii.gz
 	 	└── female
 	 	    ├── <patient_1>.nii.gz
 	 	   ...
-	 	    └── <patient_m>.nii.gz
 ```
 
 
