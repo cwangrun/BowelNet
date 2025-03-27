@@ -60,6 +60,9 @@ BowelSegData
 
 
 ## Demo segmentation:
+
+BowelNet demonstrates improved performance over prior approaches in entire bowel segmentation.
+
 ![image](https://github.com/cwangrun/BowelNet/blob/master/bowel_fineseg/arch/seg_demo.png)
 
 
