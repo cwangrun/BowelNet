@@ -60,7 +60,7 @@ BowelSegData
 
 
 ## Demo segmentation:
-![image](https://github.com/runningcw/BowelNet/blob/master/bowel_fineseg/arch/demo_seg.png)
+![image](https://github.com/cwangrun/BowelNet/blob/master/bowel_fineseg/arch/seg_demo.png)
 
 
 ## Citation:
