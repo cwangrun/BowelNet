@@ -1,7 +1,7 @@
 # BowelNet
 
 
-Pytorch implementation of the paper "BowelNet: Joint Semantic-Geometric Ensemble Learning for Bowel Segmentation from Both Partially and Fully Labeled CT Images". Email: chong.wang@adelaide.edu.au
+### Pytorch implementation for the paper "[BowelNet: Joint Semantic-Geometric Ensemble Learning for Bowel Segmentation from Both Partially and Fully Labeled CT Images](https://ieeexplore.ieee.org/document/9966840)" at IEEE TMI 2022. Email: chong.wang@adelaide.edu.au
 
 <img width="523" height="183" src="https://github.com/runningcw/BowelNet/blob/master/bowel_fineseg/arch/pipeline.png"/></dev>
 <img width="290" height="183" src="https://github.com/runningcw/BowelNet/blob/master/bowel_fineseg/arch/segmentors.png"/></dev>
