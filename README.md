@@ -10,7 +10,7 @@ Email: chong.wang@adelaide.edu.au
 
 ## Introduction:
 
-The BowelNet algorithm is a two-stage coarse-to-fine framework for the sgmentation of entire bowel (including duodenum, jejunum-ileum, colon, sigmoid, and rectum) from abdominal CT images. The first stage jointly localizes all types of the bowel, trained robustly on both partially and fully labeled samples (see examples below). The second stage finely segments each type of localized the bowels using geometric bowel representations and hybrid psuedo labels:
+The BowelNet algorithm is a two-stage coarse-to-fine framework for the sgmentation of entire bowel (i.e., duodenum, jejunum-ileum, colon, sigmoid, and rectum) from abdominal CT images. The first stage jointly localizes all types of the bowel, trained robustly on both partially and fully labeled samples (see examples below). The second stage finely segments each type of localized the bowels using geometric bowel representations and hybrid psuedo labels:
 
 [(1) Joint localzation of the five bowel parts using both partially- and fully-labeled images](https://github.com/runningcw/BowelNet/tree/master/bowel_coarseseg)
 
@@ -26,7 +26,7 @@ Examples of fully (a) and partially (b, c) labeled training data used in our wor
 
 ## Dataset:
 
-We use a private large abdominal CT dataset with partially and fully-labeled segmentation masks. Our dataset structure is as follows:
+We use a large private abdominal CT dataset with partially and fully-labeled segmentation annotation. Our dataset is organised as follows:
 
 ```
 BowelSegData
@@ -64,12 +64,12 @@ BowelSegData
 
 ## Data Preprocessing:
 
-[Preprocessing](https://github.com/runningcw/BowelNet/blob/master/bowel_coarseseg/preprocessing.py) includes cropping abdominal body region. We average all 2D CT slices to form a mean image and then apply a thresholding on it to obtain the abdominal body region (excluding CT bed).
+[Preprocessing](https://github.com/runningcw/BowelNet/blob/master/bowel_coarseseg/preprocessing.py) includes cropping abdominal body region. We average all 2D CT slices of a volume to form a mean image and then apply a thresholding on it to obtain the abdominal body region (excluding CT bed).
 
 
 ## Demo segmentation:
 
-BowelNet demonstrates improved performance over prior approaches in entire bowel segmentation.
+Our BowelNet demonstrates improved performance over prior approaches in the entire bowel segmentation.
 
 ![image](https://github.com/cwangrun/BowelNet/blob/master/bowel_fineseg/arch/seg_demo.png)
 
