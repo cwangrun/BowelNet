@@ -17,10 +17,10 @@ The BowelNet algorithm is a two-stage coarse-to-fine framework for the sgmentati
 [(2) Fine segmentation of each part using geometric (i.e., boundary and skeleton) guidance](https://github.com/runningcw/BowelNet/tree/master/bowel_fineseg)
 
 
-Examples of partially and fully labeled training data used in our work: 
+Examples of fully (a) and partially (b,c) labeled training data used in our work: 
 
 <div align=center>
-<img width="930" height="370" src="https://github.com/cwangrun/BowelNet/blob/master/bowel_fineseg/arch/data.png"/></dev>
+<img width="530" height="370" src="https://github.com/cwangrun/BowelNet/blob/master/bowel_fineseg/arch/data.png"/></dev>
 </div>
 
 
