@@ -19,7 +19,9 @@ The BowelNet algorithm is a two-stage coarse-to-fine framework for the sgmentati
 
 Examples of partially and fully labeled training data used in our work: 
 
-![image](https://github.com/cwangrun/BowelNet/blob/master/bowel_fineseg/arch/data.png)
+<div align=center>
+<img width="930" height="370" src="https://github.com/cwangrun/BowelNet/blob/master/bowel_fineseg/arch/data.png"/></dev>
+</div>
 
 
 ## Dataset:
