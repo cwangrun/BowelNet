@@ -10,7 +10,7 @@ Email: chong.wang@adelaide.edu.au
 
 ## Introduction:
 
-The BowelNet algorithm is a two-stage coarse-to-fine framework for the sgmentation of entire bowel (i.e., duodenum, jejunum-ileum, colon, sigmoid, and rectum) from abdominal CT images. The first stage jointly localizes all types of the bowel, trained robustly on both partially and fully labeled samples (see examples below). The second stage finely segments each type of localized the bowels using geometric bowel representations and hybrid psuedo labels:
+The BowelNet is a two-stage coarse-to-fine framework for the sgmentation of entire bowel (i.e., duodenum, jejunum-ileum, colon, sigmoid, and rectum) from abdominal CT images. The first stage jointly localizes all types of the bowel, trained robustly on both partially and fully labeled samples (see examples below). The second stage finely segments each type of localized the bowels using geometric bowel representations and hybrid psuedo labels:
 
 [(1) Joint localzation of the five bowel parts using both partially- and fully-labeled images](https://github.com/runningcw/BowelNet/tree/master/bowel_coarseseg)
 
