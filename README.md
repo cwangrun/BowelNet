@@ -26,7 +26,7 @@ Examples of fully (a) and partially (b, c) labeled training data used in our wor
 
 ## Dataset:
 
-We use a large private abdominal CT dataset with partially and fully-labeled segmentation annotation. Our dataset is organised as follows:
+We utilize a large private abdominal CT dataset that includes both partially and fully labeled segmentation annotations. The dataset is structured as follows:
 
 ```
 BowelSegData
